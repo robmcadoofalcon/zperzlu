@@ -13,7 +13,7 @@ uint8_t buffer[BUFFER_SIZE*2];
 extern int offsets[65535];
 extern char shuffle_control_masks[65535*16];
 
-void jumble(size_t *, uint8_t *);
+void jumble(size_t, uint8_t *);
 
 int main(int argc, char **argv) {
     size_t bytes_read = 0;
@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
     uint64_t before = __rdtsc();
     do {
         bytes_read = fread(buffer, sizeof(char), BUFFER_SIZE, fd);
-        jumble(&bytes_read, buffer);
+        jumble(bytes_read, buffer);
         printf("%.*s", (int) bytes_read, buffer);
     } while(__builtin_expect(bytes_read == BUFFER_SIZE, 0));
     uint64_t taken = __rdtsc() - before;
@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
-void jumble(size_t *bytes_read, uint8_t *buffer) {
+void jumble(size_t bytes_read, uint8_t *buffer) {
     __m128i v_in, is_alpha, is_number, is_alphanum;
     __m128i to_upper = _mm_set1_epi8(0x20);
 
