@@ -8,4 +8,7 @@ build: clean
 benchmark: clean build
 	./puzzler large_input.txt | pv > /dev/null
 
+constexprtable:
+	g++ -c --std=c++20 table.cpp -fconstexpr-steps=10000000
+
 all: benchmark
