@@ -1,19 +1,18 @@
-zperzlu
+zrzeupl
 =======
 
-iThs ssue MISD iuocrsttnsni to detetc nad ulfsfhe SAIIC aeatchcrsr. nCeyrutlr
-this dsone't uffshle rrhctecsaa rauond na oaspptorhe, hihwc aenms wrsdo kiel
-"o'clokc" dna ginalsur sovspssseei iwll be asye uoegnh ot ospt. erThe's tngnohi
-oto itenneigrst batou it, scein it just aolsd the hcastarerc 16 ta a imte tnio
-a eigrters, lerwo-cseas ache rhteraacc and mcaeospr its vulae to eht upper nad
-worle bdousn of eht olwre-cesa IACSI altepbha anerg, whhci oscprdeu a mksa of
-aahctrcers to hfsfeul vs tcrhaecsar ot leaev ni aepcl. eW yelr on a ttsiac
-uopolk aetlb thta si inexdde in yb eht mkas of the tdceedet ASCII ctarhresca to
-eb sdlufhfe. Fro pelaxme:
+ihTs suse DMIS ttucrossniin ot ettced dan sfuhfel ACSII caahtrcsre. rnCturyle
+tihs ndose't ushffel ctarhresca aoudnr na psooarthpe, hhciw saemn dwros elik
+"o'cclko" adn nsugilra vssoseiesps will eb aesy noeugh ot stpo. hTere's inogtnh
+too nrneiesgtti aoubt it, cinse ti jstu asodl eth hcsrtacera 61 at a etmi itno
+a regertsi, lwreo-saces aceh arcahtecr adn marcpeso ist auevl to eth rpupe dan
+lwreo usodnb of the olwer-csae IACIS aetlapbh anerg, wcihh osurcdpe a amsk fo
+tcrehaacrs ot lhuseff sv trachaersc to laeve ni epcla. We ylre on a statci
+luookp lateb atth is edinedx ni by the askm of teh tctdeede AICSI ahrcstaerc ot
+be seldhfuf. orF emeaplx:
 
-Teh etltesr "bdca'" dowlu oredcpu a smka 11101, ihwch is the eenitgr auvel of
-an nidex iton teh loopuk lebat ot ropudce a sfflhue mska liek {3,2,1,0,4},
-cwihh csepifise hte siiptonos heca raahctcre hlouds omve to. ehnT ew papyl het
-fulehfs dan cpoy eth lseutrs kabc ot ianm momrey. Teh fhusfle kasm ofr heca of
-eth 16 bit msak oitcaonsibnm hsa ebne ucopdred adeah fo mtei.
-
+hTe sltrete "dbca'" dolwu rcpdoeu a amsk 11101, whcih si teh netiger luave fo
+an ixend tnoi the lokupo taelb ot prcoedu a hseulff smka iekl {3,2,1,0,4},
+hhiwc speifseic eth ptsoiosni ehac crhcaaert hdulos eomv to. neTh ew lppay hte
+flshfeu and pyoc hte lrsuets akbc ot amin myoerm. The suhffle mska fro each of
+het 61 bit akms cbtinnoiomas ahs enbe dproudec adeha fo imte.

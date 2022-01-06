@@ -1,3 +1,6 @@
+puzzler
+=======
+
 This uses SIMD instructions to detect and shuffle ASCII characters. Currently
 this doesn't shuffle characters around an apostrophe, which means words like
 "o'clock" and singular possessives will be easy enough to spot. There's nothing
