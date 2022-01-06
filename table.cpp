@@ -52,7 +52,7 @@ struct LookupTable {
                 const size_t bit = iVal & 1;
                 right = (15-j) & yoDawg[bit];
                 values[i][j] = (uint8_t) 15-j;
-                //shuffle(values[i], i, left, right);
+                shuffle(values[i], i, left, right);
                 left = max(left, right);
                 iVal >>= 1;
             }

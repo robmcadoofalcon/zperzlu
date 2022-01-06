@@ -47,7 +47,7 @@ void jumble(size_t bytes_read, uint8_t *buffer) {
     __m128i v_in, is_alpha, is_number, is_alphanum;
     __m128i to_upper = _mm_set1_epi8(0x20);
 
-    for(size_t i = 0; i < *bytes_read; i+=16) {
+    for(size_t i = 0; i < bytes_read; i+=16) {
         // Is this an alpha character?
         v_in = _mm_load_si128((__m128i *)&buffer[i]);        
         is_alpha = _mm_or_si128(v_in, to_upper);
