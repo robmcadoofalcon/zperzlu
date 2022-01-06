@@ -26,11 +26,11 @@ int main(int argc, char **argv) {
     }
     FILE *fd = fopen(argv[1], "r");
 
-    setvbuf(fd, (char *)NULL, _IONBF, 0);
     if(!fd) {
         printf("Could not open input file. Exiting.\n");
         return 2;
     }
+    setvbuf(fd, (char *)NULL, _IONBF, 0);
     _mm_mfence();
     uint64_t before = __rdtsc();
     do {
