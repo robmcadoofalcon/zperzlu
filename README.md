@@ -1,20 +1,20 @@
-zrzeupl
+rulezzp
 =======
 
-ihTs suse DMIS ttucrossniin ot ettced dan sfuhfel ACSII caahtrcsre. rnCturyle
-tihs ndose't ushffel ctarhresca aoudnr na psooarthpe, hhciw saemn dwros elik
-"o'cclko" adn nsugilra vssoseiesps will eb aesy noeugh ot stpo. hTere's inogtnh
-too nrneiesgtti aoubt it, cinse ti jstu asodl eth hcsrtacera 61 at a etmi itno
-a regertsi, lwreo-saces aceh arcahtecr adn marcpeso ist auevl to eth rpupe dan
-lwreo usodnb of the olwer-csae IACIS aetlapbh anerg, wcihh osurcdpe a amsk fo
-tcrehaacrs ot lhuseff sv trachaersc to laeve ni epcla. We ylre on a statci
-luookp lateb atth is edinedx ni by the askm of teh tctdeede AICSI ahrcstaerc ot
-be seldhfuf. orF emeaplx:
+hsiT esus MDIS tsotnrcsnuii to eectdt adn usfhfel ACISI tccharaser. tuynrleCr
+tshi esdon't ushfelf earrcacsth andour na aptosorehp, hhcwi anems swrdo ikel
+"o'clkco" adn ignlusra sossesevpis wlil eb syea enuogh to sotp. There's innhogt
+oto reseigtntin uboat ti, necsi ti just loads teh chrtacreas 61 at a iemt toin
+a gertiesr, rowel-casse aceh ccrtahaer nad sreacomp its lvaeu to het uperp dna
+olewr onsdbu fo hte olewr-case IAISC aalethbp ngaer, whihc erocsdup a kams of
+eccrtaahsr ot lfusehf vs ascreahctr to lvaee ni lapec. We lyer on a ttasic
+ookplu albet tath si ddenexi ni yb teh ksma of hte dtecdete AIICS chrtrcaeas to
+eb flhfsued. roF xameelp:
 
-hTe sltrete "dbca'" dolwu rcpdoeu a amsk 11101, whcih si teh netiger luave fo
-an ixend tnoi the lokupo taelb ot prcoedu a hseulff smka iekl {3,2,1,0,4},
-hhiwc speifseic eth ptsoiosni ehac crhcaaert hdulos eomv to. neTh ew lppay hte
-flshfeu and pyoc hte lrsuets akbc ot amin myoerm. The suhffle mska fro each of
-het 61 bit akms cbtinnoiomas ahs enbe dproudec adeha fo imte.
+The lretste "abcd'" ldowu erpdouc a asmk 01111, whcih si eht nitgere avlue fo
+an ienxd tnoi teh lopkou etabl to prdeuoc a lhufsef mkas keli {3,2,1,0,4},
+cwhhi espiiescf teh spiotiosn ache ahcractre hdluso veom ot. Tnhe ew plpay the
+efhlufs and pcoy eht luresst bakc ot mnai mrymeo. ehT fshuefl mkas ofr ceah fo
+the 16 tib sakm cotmnnobiais sah bene dpruoecd aahde fo mite.
 
-ermlcnaUsbd ainlxaponet in teh LYEALR_ADMERE.dm flie.
+elUabnsmcdr antaelxpoin ni the [LEAR_MEEARD.md](LEAR_MEEARD.md) elfi.
