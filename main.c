@@ -40,7 +40,6 @@ int main(int argc, char **argv) {
     } while(__builtin_expect(bytes_read == BUFFER_SIZE, 0));
     uint64_t taken = __rdtsc() - before;
     //printf("Cycles taken: %llu\n", taken);
-    //printf("Elapsed: %f seconds\n");
     return 0;
 }
 
