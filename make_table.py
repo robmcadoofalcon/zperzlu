@@ -1,7 +1,3 @@
-#
-# We want an output that looks something like:
-# format(25000, "016b")
-#
 import random
 from itertools import islice
 NUM_REGISTERS = 16
