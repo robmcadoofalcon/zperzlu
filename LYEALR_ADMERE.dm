@@ -16,3 +16,5 @@ an index into the lookup table to produce a shuffle mask like {3,2,1,0,4},
 which specifies the positions each character should move to. Then we apply the
 shuffle and copy the results back to main memory. The shuffle mask for each of
 the 16 bit mask combinations has been produced ahead of time.
+
+Unscrambled explanation in the [REAL_README.md](REAL_README.md) file.
