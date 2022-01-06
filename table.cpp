@@ -8,7 +8,7 @@ constexpr void swap(uint8_t *arr, size_t l, size_t r) {
     arr[r] = t;
 }
 
-
+// This random table can be eliminated in favour of passing the state as an inout to shuffle.
 template<size_t N, size_t W>
 struct RandomNumberTable {
     constexpr RandomNumberTable() : values() {
